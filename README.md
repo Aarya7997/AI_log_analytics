@@ -128,7 +128,7 @@ Served block blk_xxx	Normal HDFS Operation
 
 This hybrid approach improves explainability and trust.
 
-⏱ Time-Window Analysis (time_window_analyzer.py)
+Time-Window Analysis (time_window_analyzer.py)
 
 Detects temporal spikes in error frequency by grouping logs into fixed time windows.
 
@@ -138,7 +138,7 @@ System failures often emerge over time, not in isolation
 
 Helps identify cascading or burst failures
 
-📡 Streaming Simulation (log_streamer.py)
+Streaming Simulation (log_streamer.py)
 
 Simulates real-time log ingestion by streaming logs line-by-line.
 
@@ -150,7 +150,7 @@ Monitoring pipelines
 
 Real-time alerting systems
 
-🌐 Web Interface (app.py)
+Web Interface (app.py)
 
 Built using Streamlit to rapidly prototype a production-style dashboard.
 
